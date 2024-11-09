@@ -27,7 +27,7 @@ export const RESUME_DATA = {
   about:
     "Detail-oriented Full Stack Engineer dedicated to building high-quality products.",
   summary:
-    "As a Full Stack Engineer, I specialize in taking products from concept to launch. I excel in leading teams and creating environments where individuals perform at their best. Currently, I work mostly with TypeScript, React, Node.js, and Next.js.",
+    "As a Full Stack Engineer, I like to work on hard problems and figure out innovative solutions. I also love to implement designs and learn on the go. I firmly believe that there is always an extra mile to go, and strive to put in 110% of my time and effort to the projects I take on. Currently, I work mostly with TypeScript, React, Node.js, and Next.js.",
   avatarUrl: "https://avatars.githubusercontent.com/u/68700864?v=4",
   personalWebsiteUrl: "https://arpitkhandelwal.com",
   contact: {
@@ -62,7 +62,7 @@ export const RESUME_DATA = {
   work: [
     {
       company: "Hewlett Packard Enterprise",
-      // link: "https://film.io",
+      link: "",
       badges: ["Hybrid"],
       title: "Software Developer 1",
       // logo: ConsultlyLogo,
@@ -80,22 +80,25 @@ export const RESUME_DATA = {
     "Node.js"
     ],
   projects: [
-    // {
-    //   title: "Parabol",
-    //   techStack: [
-    //     "Full Stack Developer",
-    //     "TypeScript",
-    //     "React",
-    //     "Node.js",
-    //     "GraphQL",
-    //   ],
-    //   description:
-    //     "The Agile meeting co-pilot that delivers better meetings with less effort",
-    //   logo: ParabolLogo,
-    //   link: {
-    //     label: "github.com",
-    //     href: "https://parabol.co/",
-    //   },
-    // },
+    {
+      title: "Youtube Downloader",
+      techStack: [
+        "Full Stack Developer",
+        "TypeScript",
+        "React",
+        "Node.js",
+        "Next.js",
+        "S3",
+        "ffmpeg",
+        
+      ],
+      description:
+        "Minimal Youtube downloader for audio and video with custom quality and resolutions",
+      logo: ParabolLogo,
+      link: {
+        label: "github.com",
+        href: "https://github.com/Arpit-Khandelwal/yt-downloader",
+      },
+    },
   ],
 } as const;
