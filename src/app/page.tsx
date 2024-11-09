@@ -177,7 +177,12 @@ export default function Page() {
         </Section>
 
         <Section className="print-force-new-page scroll-mb-16">
-          <h2 className="text-xl font-bold">Projects</h2>
+          <span>
+            <div className="flex items-center">
+              <h2 className="text-xl font-bold w-auto">Projects </h2>
+              <h4 className="ml-2 text-xs">(Adding More)</h4>
+            </div>
+          </span>
           <div className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3">
             {RESUME_DATA.projects.map((project) => {
               return (
