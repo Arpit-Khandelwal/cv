@@ -83,6 +83,23 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
+      title: "Sol Chat",
+      techStack: [
+        "LLMs",
+        "Azure",
+        "RAG",
+        "Devops"
+
+      ],
+      description:
+        "A chatbot for Solana ecosystem to help users with their queries and provide them with the necessary information.",
+      logo: ParabolLogo,
+      link: {
+        label: "website",
+        href: "https://solchat.arpitkhandelwal.com",
+      },
+    },
+    {
       title: "Youtube Downloader",
       techStack: [
         "TypeScript",
@@ -183,7 +200,7 @@ export const RESUME_DATA = {
         "Prisma",
       ],
       description:
-        "Multiple interactive blinks (Solana Actions) including Betting on a Coin toss, Gated NFTs and Conducting a Quiz on blinks",
+        "Leaderboard with views and Upvotes on Community submitted blinks",
       logo: ParabolLogo,
       link: {
         label: "website",
@@ -216,7 +233,7 @@ export const RESUME_DATA = {
         "Tailwind CSS",
       ],
       description:
-        "Get moticational quotes daily from Stoic philosophy",
+        "Get motivational quotes daily from Stoic philosophy",
       logo: ParabolLogo,
       link: {
         label: "website",
@@ -279,7 +296,7 @@ export const RESUME_DATA = {
         "MongoDB",
         "OpenAI API",
         "Cloudflare Workers",
-        "Hono" 
+        "Hono"
       ],
       description:
         "Chatbot to buy/sell/list properties via WhatsApp.",
