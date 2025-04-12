@@ -1,23 +1,23 @@
 import
-  {
-    AmbitLogo,
-    BarepapersLogo,
-    BimLogo,
-    CDGOLogo,
-    ClevertechLogo,
-    ConsultlyLogo,
-    EvercastLogo,
-    Howdy,
-    JarockiMeLogo,
-    JojoMobileLogo,
-    Minimal,
-    MobileVikingsLogo,
-    MonitoLogo,
-    NSNLogo,
-    ParabolLogo,
-    TastyCloudLogo,
-    YearProgressLogo,
-  } from "@/images/logos";
+{
+  AmbitLogo,
+  BarepapersLogo,
+  BimLogo,
+  CDGOLogo,
+  ClevertechLogo,
+  ConsultlyLogo,
+  EvercastLogo,
+  Howdy,
+  JarockiMeLogo,
+  JojoMobileLogo,
+  Minimal,
+  MobileVikingsLogo,
+  MonitoLogo,
+  NSNLogo,
+  ParabolLogo,
+  TastyCloudLogo,
+  YearProgressLogo,
+} from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
@@ -26,9 +26,9 @@ export const RESUME_DATA = {
   location: "Banglore, IN",
   locationLink: "https://maps.app.goo.gl/zhMJcYT74CoPqhkd8",
   about:
-    "Detail-oriented Full Stack Engineer dedicated to building high-quality products.",
+    "Full Stack Engineer specializing in AI and Web3 applications, focused on delivering robust and user-centric products.",
   summary:
-    "As a Full Stack Engineer, I like to work on hard problems and figure out innovative solutions. I also love to implement designs and learn on the go. I firmly believe that there is always an extra mile to go, and strive to put in 110% of my time and effort to the projects I take on. Currently, I work mostly with TypeScript, React, Node.js, and Next.js.",
+    "Experienced Full Stack Engineer passionate about tackling complex challenges and delivering innovative solutions, particularly in AI and Web3 domains. Proven ability to quickly learn and implement new technologies, consistently striving for excellence in project execution. Proficient across the stack, including TypeScript, React/Next.js, Node.js, Python, Solana, and various AI/LLM tools.",
   avatarUrl: "https://avatars.githubusercontent.com/u/68700864?v=4",
   personalWebsiteUrl: "https://arpitkhandelwal.com",
   contact: {
@@ -63,25 +63,25 @@ export const RESUME_DATA = {
   work: [
     {
       company: "Avici Money",
-      link: "https://avici.money", // Assumed link
-      badges: ["Remote"], // Assumed badge
-      title: "AI and Backend Engineer", // Assumed title
-      // logo: ConsultlyLogo, // Placeholder for logo if available
-      start: "2025", // Assumed start date
+      link: "https://avici.money",
+      badges: ["Remote"],
+      title: "AI and Backend Engineer",
+      // logo: ConsultlyLogo,
+      start: "2025",
       end: "Present",
       description:
-        "Building an AI concierge service to help users order food, book tickets, and perform other tasks.",
+        "Developing an AI concierge service enabling users to seamlessly order food, book tickets, and manage various tasks through natural language interaction.",
     },
     {
       company: "Freelance",
-      link: "", // No specific link provided
+      link: "",
       badges: ["Remote"],
-      title: "Software Developer", // Assumed title
-      // logo: ConsultlyLogo, // Placeholder for logo if available
-      start: "2021", // Assumed start date
-      end: "Present", // Assumed ongoing
+      title: "Software Developer",
+      // logo: ConsultlyLogo,
+      start: "2021",
+      end: "Present",
       description:
-        "Developed video pipelines (FFmpeg) for youtubers, Reddit bots for scraping and query answering, and custom Discord/Twitter/Telegram bots with knowledge integration and web scraping (Firecrawl/Playwright).",
+        "Engineered automated solutions including FFmpeg video pipelines for creators, Reddit scraping/query bots, and custom AI-powered Discord/Twitter/Telegram bots leveraging knowledge integration and web scraping tools (Firecrawl/Playwright).",
     },
     {
       company: "Hewlett Packard Enterprise",
@@ -92,17 +92,27 @@ export const RESUME_DATA = {
       start: "2023",
       end: "2024",
       description:
-        "Worked with intgerations and developing microservices for DAST security tools like Webinspect, Burp, Zap, Openvas"
+        "Developed and integrated microservices for DAST security tools (Webinspect, Burp Suite, OWASP ZAP, OpenVAS), enhancing application security testing capabilities.",
     },
-    
   ],
   skills: [
     "JavaScript",
     "TypeScript",
+    "Python",
     "React/Next.js",
     "Node.js",
+    "Solana",
+    "AI/LLMs",
+    "Vector DB",
     "Prisma",
-    "Zod"
+    "Postgres",
+    "Zod",
+    "ffmpeg",
+    "Playwright",
+    "Web Scraping",
+    "API Integration",
+    "Docker",
+    "Cloudflare Workers"
   ],
   projects: [
     {
@@ -116,7 +126,7 @@ export const RESUME_DATA = {
       ],
       description:
         "Privacy-focused anonymous gossip platform built during Zugrama residency. Achieved 50+ users & 200+ gossips within 24 hours.",
-      logo: ParabolLogo, // Assuming ParabolLogo is a placeholder
+      logo: ParabolLogo,
       link: {
         label: "website",
         href: "https://gossip-dao.vercel.app",
@@ -134,7 +144,7 @@ export const RESUME_DATA = {
       ],
       description:
         "AI therapist providing personalized support through weekly check-ins and indexed journal entries.",
-      logo: ParabolLogo, // Assuming ParabolLogo is a placeholder
+      logo: ParabolLogo,
       link: {
         label: "website",
         href: "https://sage-aadit.arpitkhandelwal.com",
@@ -151,7 +161,7 @@ export const RESUME_DATA = {
       ],
       description:
         "Gated Solana NFT minting platform exclusively for members of Harkirat's 100x Devs cohort.",
-      logo: ParabolLogo, // Assuming ParabolLogo is a placeholder
+      logo: ParabolLogo,
       link: {
         label: "website",
         href: "https://nft.arpitkhandelwal.com",
@@ -169,7 +179,7 @@ export const RESUME_DATA = {
       ],
       description:
         "Blockchain indexing platform simplifying Solana data integration into Postgres using Helius webhooks.",
-      logo: ParabolLogo, // Assuming ParabolLogo is a placeholder
+      logo: ParabolLogo,
       link: {
         label: "website",
         href: "https://helius-indexer.arpitkhandelwal.com",
@@ -182,7 +192,6 @@ export const RESUME_DATA = {
         "Azure",
         "RAG",
         "Devops"
-
       ],
       description:
         "AI-powered chatbot for the Solana ecosystem, providing users with relevant information and assistance.",
@@ -203,7 +212,6 @@ export const RESUME_DATA = {
         "ffmpeg",
         "Chakra UI",
         "Tailwind CSS",
-
       ],
       description:
         "Minimalist tool for downloading YouTube audio and video at custom qualities and resolutions.",
@@ -213,7 +221,6 @@ export const RESUME_DATA = {
         href: "https://yt.arpitkhandelwal.com",
       },
     },
-
     {
       title: "Github Leaderboard",
       techStack: [
@@ -234,7 +241,6 @@ export const RESUME_DATA = {
         href: "https://leaderboard.arpitkhandelwal.com",
       },
     },
-
     {
       title: "Video Trimmer",
       techStack: [
@@ -250,7 +256,6 @@ export const RESUME_DATA = {
         href: "https://video-trimmer.arpitkhandelwal.com",
       },
     },
-
     {
       title: "Mint Free NFT",
       techStack: [
@@ -266,7 +271,6 @@ export const RESUME_DATA = {
         href: "https://mynft.arpitkhandelwal.com",
       },
     },
-
     {
       title: "Blinks",
       techStack: [
@@ -283,7 +287,6 @@ export const RESUME_DATA = {
         href: "https://actions.arpitkhandelwal.com/api/actions",
       },
     },
-
     {
       title: "Blinkathon Leaderboard",
       techStack: [
@@ -297,10 +300,9 @@ export const RESUME_DATA = {
       logo: ParabolLogo,
       link: {
         label: "website",
-        href: "https://arpitkhandelwal.com/", // Consider updating if this is the correct link
+        href: "https://blinkathon.vercel.app/",
       },
     },
-
     {
       title: "7 course mart",
       techStack: [
@@ -317,7 +319,6 @@ export const RESUME_DATA = {
         href: "https://7cm.arpitkhandelwal.com",
       },
     },
-
     {
       title: "Daily Quote",
       techStack: [
@@ -333,7 +334,6 @@ export const RESUME_DATA = {
         href: "https://quotes.arpitkhandelwal.com/",
       },
     },
-
     {
       title: "WoW Helper",
       techStack: [
@@ -348,7 +348,6 @@ export const RESUME_DATA = {
         href: "https://wowhelper.arpitkhandelwal.com",
       },
     },
-
     {
       title: "Typing Game",
       techStack: [
@@ -364,7 +363,6 @@ export const RESUME_DATA = {
         href: "https://typinggame.arpitkhandelwal.com",
       },
     },
-
     {
       title: "Drum Kit",
       techStack: [
@@ -380,7 +378,6 @@ export const RESUME_DATA = {
         href: "https://drumkit.arpitkhandelwal.com",
       },
     },
-
     {
       title: "Real Estate WhatsApp Chatbot",
       techStack: [
@@ -399,7 +396,6 @@ export const RESUME_DATA = {
         href: "https://realestatechatbot.arpitkhandelwal.com",
       },
     },
-
     {
       title: "Calendly Workaround",
       techStack: [
@@ -415,7 +411,6 @@ export const RESUME_DATA = {
         href: "https://calendlyworkaround.arpitkhandelwal.com",
       },
     },
-
     {
       title: "AI Screenshot Renamer",
       techStack: [
@@ -430,7 +425,6 @@ export const RESUME_DATA = {
         href: "https://aiscreenshotrenamer.arpitkhandelwal.com",
       },
     },
-
     {
       title: "Low Power Mode Test",
       techStack: [
@@ -445,7 +439,6 @@ export const RESUME_DATA = {
         href: "https://lowpowermodetest.arpitkhandelwal.com",
       },
     },
-
     {
       title: "Image to Excel",
       techStack: [
@@ -460,7 +453,6 @@ export const RESUME_DATA = {
         href: "https://imagetoxl.arpitkhandelwal.com",
       },
     },
-
     {
       title: "Insta Follow Frenzy",
       techStack: [
@@ -475,7 +467,6 @@ export const RESUME_DATA = {
         href: "https://instafollowfrenzy.arpitkhandelwal.com",
       },
     },
-
     {
       title: "Ask GPT Twitter",
       techStack: [
@@ -491,7 +482,6 @@ export const RESUME_DATA = {
         href: "https://askgpttwitter.arpitkhandelwal.com",
       },
     },
-
     {
       title: "Twitter Thread Bot",
       techStack: [
@@ -507,7 +497,6 @@ export const RESUME_DATA = {
         href: "https://twitterthreadbot.arpitkhandelwal.com",
       },
     },
-
     {
       title: "Terminal Chat GPT",
       techStack: [
@@ -522,7 +511,6 @@ export const RESUME_DATA = {
         href: "https://terminalchatgpt.arpitkhandelwal.com",
       },
     },
-
     {
       title: "Face Mask Detection",
       techStack: [
