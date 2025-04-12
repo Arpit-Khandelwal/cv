@@ -1,22 +1,23 @@
-import {
-  AmbitLogo,
-  BarepapersLogo,
-  BimLogo,
-  CDGOLogo,
-  ClevertechLogo,
-  ConsultlyLogo,
-  EvercastLogo,
-  Howdy,
-  JarockiMeLogo,
-  JojoMobileLogo,
-  Minimal,
-  MobileVikingsLogo,
-  MonitoLogo,
-  NSNLogo,
-  ParabolLogo,
-  TastyCloudLogo,
-  YearProgressLogo,
-} from "@/images/logos";
+import
+  {
+    AmbitLogo,
+    BarepapersLogo,
+    BimLogo,
+    CDGOLogo,
+    ClevertechLogo,
+    ConsultlyLogo,
+    EvercastLogo,
+    Howdy,
+    JarockiMeLogo,
+    JojoMobileLogo,
+    Minimal,
+    MobileVikingsLogo,
+    MonitoLogo,
+    NSNLogo,
+    ParabolLogo,
+    TastyCloudLogo,
+    YearProgressLogo,
+  } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
@@ -61,6 +62,28 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: "Avici Money",
+      link: "https://avici.money", // Assumed link
+      badges: ["Remote"], // Assumed badge
+      title: "AI and Backend Engineer", // Assumed title
+      // logo: ConsultlyLogo, // Placeholder for logo if available
+      start: "2025", // Assumed start date
+      end: "Present",
+      description:
+        "Building an AI concierge service to help users order food, book tickets, and perform other tasks.",
+    },
+    {
+      company: "Freelance",
+      link: "", // No specific link provided
+      badges: ["Remote"],
+      title: "Software Developer", // Assumed title
+      // logo: ConsultlyLogo, // Placeholder for logo if available
+      start: "2021", // Assumed start date
+      end: "Present", // Assumed ongoing
+      description:
+        "Developed video pipelines (FFmpeg) for youtubers, Reddit bots for scraping and query answering, and custom Discord/Twitter/Telegram bots with knowledge integration and web scraping (Firecrawl/Playwright).",
+    },
+    {
       company: "Hewlett Packard Enterprise",
       link: "",
       badges: ["Hybrid"],
@@ -71,7 +94,7 @@ export const RESUME_DATA = {
       description:
         "Worked with intgerations and developing microservices for DAST security tools like Webinspect, Burp, Zap, Openvas"
     },
-
+    
   ],
   skills: [
     "JavaScript",
@@ -83,7 +106,77 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
-      title: "Sol Chat",
+      title: "Gossip DAO",
+      techStack: [
+        "Next.js",
+        "TypeScript",
+        "Solana",
+        "Prisma",
+        "Tailwind CSS",
+      ],
+      description:
+        "Privacy-focused anonymous gossip platform built during Zugrama residency. Achieved 50+ users & 200+ gossips within 24 hours.",
+      logo: ParabolLogo, // Assuming ParabolLogo is a placeholder
+      link: {
+        label: "website",
+        href: "https://gossip-dao.vercel.app",
+      },
+    },
+    {
+      title: "Sage Aadit",
+      techStack: [
+        "Next.js",
+        "TypeScript",
+        "AI",
+        "LLMs",
+        "Vector DB",
+        "Tailwind CSS",
+      ],
+      description:
+        "AI therapist providing personalized support through weekly check-ins and indexed journal entries.",
+      logo: ParabolLogo, // Assuming ParabolLogo is a placeholder
+      link: {
+        label: "website",
+        href: "https://sage-aadit.arpitkhandelwal.com",
+      },
+    },
+    {
+      title: "100xNFT",
+      techStack: [
+        "Solana",
+        "Next.js",
+        "TypeScript",
+        "NFT",
+        "Tailwind CSS",
+      ],
+      description:
+        "Gated Solana NFT minting platform exclusively for members of Harkirat's 100x Devs cohort.",
+      logo: ParabolLogo, // Assuming ParabolLogo is a placeholder
+      link: {
+        label: "website",
+        href: "https://nft.arpitkhandelwal.com",
+      },
+    },
+    {
+      title: "Helius Indexer",
+      techStack: [
+        "Solana",
+        "Helius API",
+        "Postgres",
+        "Node.js",
+        "TypeScript",
+        "React/Next.js"
+      ],
+      description:
+        "Blockchain indexing platform simplifying Solana data integration into Postgres using Helius webhooks.",
+      logo: ParabolLogo, // Assuming ParabolLogo is a placeholder
+      link: {
+        label: "website",
+        href: "https://helius-indexer.arpitkhandelwal.com",
+      },
+    },
+    {
+      title: "Atlas",
       techStack: [
         "LLMs",
         "Azure",
@@ -92,7 +185,7 @@ export const RESUME_DATA = {
 
       ],
       description:
-        "A chatbot for Solana ecosystem to help users with their queries and provide them with the necessary information.",
+        "AI-powered chatbot for the Solana ecosystem, providing users with relevant information and assistance.",
       logo: ParabolLogo,
       link: {
         label: "website",
@@ -113,7 +206,7 @@ export const RESUME_DATA = {
 
       ],
       description:
-        "Minimal Youtube downloader for audio and video with custom quality and resolutions",
+        "Minimalist tool for downloading YouTube audio and video at custom qualities and resolutions.",
       logo: ParabolLogo,
       link: {
         label: "website",
@@ -134,7 +227,7 @@ export const RESUME_DATA = {
         "Github API"
       ],
       description:
-        "Leaderboard for github users based on their OSS contributions",
+        "Ranks GitHub users based on their open-source software contributions using the GitHub API.",
       logo: ParabolLogo,
       link: {
         label: "website",
@@ -150,7 +243,7 @@ export const RESUME_DATA = {
         "ffmpeg",
       ],
       description:
-        "Trim multiple videos with custom start and end time with Frame level accuracy. Once trim is complete, merge all the videos into one taking care of different resolutions, frame rates, encodings, etc.",
+        "Frame-accurate tool to trim and merge multiple videos, handling varying resolutions and encodings.",
       logo: ParabolLogo,
       link: {
         label: "website",
@@ -166,7 +259,7 @@ export const RESUME_DATA = {
         "Hardhat",
       ],
       description:
-        "Mint a free randomly generated NFT on ETH testnet. Starting point for onboarding new users to NFTs",
+        "Platform for minting free, randomly generated NFTs on the Ethereum testnet to onboard new users.",
       logo: ParabolLogo,
       link: {
         label: "website",
@@ -183,7 +276,7 @@ export const RESUME_DATA = {
         "Next.js",
       ],
       description:
-        "Multiple interactive blinks (Solana Actions) including Betting on a Coin toss, Gated NFTs and Conducting a Quiz on blinks",
+        "Collection of interactive Solana Actions (Blinks) including coin toss betting, gated NFTs, and quizzes.",
       logo: ParabolLogo,
       link: {
         label: "website",
@@ -200,11 +293,11 @@ export const RESUME_DATA = {
         "Prisma",
       ],
       description:
-        "Leaderboard with views and Upvotes on Community submitted blinks",
+        "Displays views and upvotes for community-submitted Blinks (Solana Actions).",
       logo: ParabolLogo,
       link: {
         label: "website",
-        href: "https://arpitkhandelwal.com/",
+        href: "https://arpitkhandelwal.com/", // Consider updating if this is the correct link
       },
     },
 
@@ -217,7 +310,7 @@ export const RESUME_DATA = {
         "Framer Motion"
       ],
       description:
-        "Landing page for a Gourmet et al Store",
+        "Animated landing page developed for a gourmet food store.",
       logo: ParabolLogo,
       link: {
         label: "website",
@@ -233,7 +326,7 @@ export const RESUME_DATA = {
         "Tailwind CSS",
       ],
       description:
-        "Get motivational quotes daily from Stoic philosophy",
+        "Web application displaying daily motivational quotes from Stoic philosophy.",
       logo: ParabolLogo,
       link: {
         label: "website",
@@ -248,7 +341,7 @@ export const RESUME_DATA = {
         "Node.js",
       ],
       description:
-        "Words of Wonder game helper to find words from the given letters.",
+        "Utility to find valid words from given letters for the 'Words of Wonder' game.",
       logo: ParabolLogo,
       link: {
         label: "website",
@@ -264,7 +357,7 @@ export const RESUME_DATA = {
         "CSS",
       ],
       description:
-        "Typing speed test game to improve typing skills.",
+        "Simple web-based game designed to test and improve typing speed and accuracy.",
       logo: ParabolLogo,
       link: {
         label: "website",
@@ -280,7 +373,7 @@ export const RESUME_DATA = {
         "CSS",
       ],
       description:
-        "Play drums using keyboard keys.",
+        "Interactive web application allowing users to play drum sounds using keyboard keys.",
       logo: ParabolLogo,
       link: {
         label: "website",
@@ -299,7 +392,7 @@ export const RESUME_DATA = {
         "Hono"
       ],
       description:
-        "Chatbot to buy/sell/list properties via WhatsApp.",
+        "AI-powered WhatsApp chatbot facilitating property buying, selling, and listing.",
       logo: ParabolLogo,
       link: {
         label: "website",
@@ -315,7 +408,7 @@ export const RESUME_DATA = {
         "Playwright"
       ],
       description:
-        "A workaround for scheduling meetings using Calendly.",
+        "Automated script using Playwright to overcome limitations in Calendly scheduling.",
       logo: ParabolLogo,
       link: {
         label: "website",
@@ -330,7 +423,7 @@ export const RESUME_DATA = {
         "OpenCV",
       ],
       description:
-        "Automatically rename screenshots based on content.",
+        "Utility that automatically renames screenshot files based on their visual content using OpenCV.",
       logo: ParabolLogo,
       link: {
         label: "website",
@@ -345,7 +438,7 @@ export const RESUME_DATA = {
         "React",
       ],
       description:
-        "Test low power mode across devices - PoC for optimizing renders on devices with Low power mode enabled.",
+        "Proof-of-concept demonstrating render optimization for devices in low power mode.",
       logo: ParabolLogo,
       link: {
         label: "website",
@@ -360,7 +453,7 @@ export const RESUME_DATA = {
         "Pandas",
       ],
       description:
-        "Convert images to Excel format.",
+        "Tool to convert image data (e.g., tables) into structured Excel spreadsheets.",
       logo: ParabolLogo,
       link: {
         label: "website",
@@ -375,7 +468,7 @@ export const RESUME_DATA = {
         "Instagram API",
       ],
       description:
-        "Follow all followers recursively of a given Instagram account. PoC for a study on social graphs",
+        "Proof-of-concept script to recursively follow followers of an Instagram account for social graph analysis.",
       logo: ParabolLogo,
       link: {
         label: "website",
@@ -391,7 +484,7 @@ export const RESUME_DATA = {
         "OpenAI API",
       ],
       description:
-        "Ask questions about a tweet by replying to it and mentioning @bot using GPT and Twitter API.",
+        "Twitter bot that answers questions about a tweet when mentioned in a reply, using GPT.",
       logo: ParabolLogo,
       link: {
         label: "website",
@@ -407,7 +500,7 @@ export const RESUME_DATA = {
         "OpenAI API",
       ],
       description:
-        "Create threads from predefined/random topics using GPT and Twitter API.",
+        "Automated bot creating Twitter threads on various topics using GPT and the Twitter API.",
       logo: ParabolLogo,
       link: {
         label: "website",
@@ -422,7 +515,7 @@ export const RESUME_DATA = {
         "OpenAI API",
       ],
       description:
-        "Chat with GPT from the terminal.",
+        "Command-line interface application for interacting with OpenAI's GPT models directly from the terminal.",
       logo: ParabolLogo,
       link: {
         label: "website",
@@ -437,7 +530,7 @@ export const RESUME_DATA = {
         "OpenCV",
       ],
       description:
-        "Detect face masks in images and real-time video.",
+        "Application using OpenCV to detect face masks in images and real-time video streams.",
       logo: ParabolLogo,
       link: {
         label: "website",
