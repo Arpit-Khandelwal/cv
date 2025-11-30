@@ -67,8 +67,8 @@ export const RESUME_DATA = {
       badges: ["Remote"],
       title: "AI and Backend Engineer",
       // logo: ConsultlyLogo,
-      start: "2025",
-      end: "Present",
+      start: "January, 2025",
+      end: "July, 2025",
       description:
         "Developing an AI concierge service enabling users to seamlessly order food, book tickets, and manage various tasks through natural language interaction.",
     },
