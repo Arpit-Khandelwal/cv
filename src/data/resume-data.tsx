@@ -112,9 +112,47 @@ export const RESUME_DATA = {
     "Web Scraping",
     "API Integration",
     "Docker",
-    "Cloudflare Workers"
+    "Cloudflare Workers",
+    "Rust"
   ],
   projects: [
+
+
+    {
+      title: "Voting Dapp",
+      techStack: [
+        "Next.js",
+        "TypeScript",
+        "Solana",
+        "Rust",
+        "Tailwind CSS",
+      ],
+      description:
+        "Voting Dapp to vote for candidates on Solana blockchain",
+      logo: ParabolLogo,
+      link: {
+        label: "website",
+        href: "https://ion.arpitkhandelwal.com",
+      },
+    },
+
+    {
+      title: "Ion Vault",
+      techStack: [
+        "Next.js",
+        "TypeScript",
+        "Solana",
+        "Rust",
+        "Tailwind CSS",
+      ],
+      description:
+        "Vault to Deposit/Withdraw native SOL",
+      logo: ParabolLogo,
+      link: {
+        label: "website",
+        href: "https://ion.arpitkhandelwal.com",
+      },
+    },
     {
       title: "Gossip DAO",
       techStack: [
