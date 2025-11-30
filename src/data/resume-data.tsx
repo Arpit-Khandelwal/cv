@@ -62,17 +62,6 @@ export const RESUME_DATA = {
   ],
   work: [
     {
-      company: "Avici Money",
-      link: "https://avici.money",
-      badges: ["Remote"],
-      title: "AI and Backend Engineer",
-      // logo: ConsultlyLogo,
-      start: "January, 2025",
-      end: "July, 2025",
-      description:
-        "Developing an AI concierge service enabling users to seamlessly order food, book tickets, and manage various tasks through natural language interaction.",
-    },
-    {
       company: "Freelance",
       link: "",
       badges: ["Remote"],
@@ -82,6 +71,17 @@ export const RESUME_DATA = {
       end: "Present",
       description:
         "Engineered automated solutions including FFmpeg video pipelines for creators, Reddit scraping/query bots, and custom AI-powered Discord/Twitter/Telegram bots leveraging knowledge integration and web scraping tools (Firecrawl/Playwright).",
+    },
+    {
+      company: "Avici Money",
+      link: "https://avici.money",
+      badges: ["Remote"],
+      title: "AI and Backend Engineer",
+      // logo: ConsultlyLogo,
+      start: "January, 2025",
+      end: "July, 2025",
+      description:
+        "Developing an AI concierge service enabling users to seamlessly order food, book tickets, and manage various tasks through natural language interaction.",
     },
     {
       company: "Hewlett Packard Enterprise",
